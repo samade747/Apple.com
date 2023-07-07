@@ -2,38 +2,81 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
 
 }
 
 /* Navbar ul */
 ul{
     text-decoration: none;
-
-
 }
 
 
 /* logo of Navbar */
-.logo11{
-    
-
-
+#logo{
+    width: 1;
 }
-
 
 /* list of Navbar */
 li{
-    display: inline;
-    text-align: center;
+    display: inline-block;
+    
+    margin-left: 20px;
+    font-size: 17px;
+    color: rgb(29, 29, 31);
+    font-weight: bold;
+    cursor: pointer;
+    font-weight: 200;
+    padding: 10px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    
     
 }
 
-#nav{
-    background-color: darkgray;
+#navbar{
+    background-color: #f9f8fd;
+    width: 100;
+    text-align: center;
+    
+        
+}
 
 
+#Macbook{
+    
+    text-align: center;
+    font-size: 50px;
+        
+}
 
+
+#box{
+    background-position: center;
+    background-image: url(./Assests/macbook.jpg);
+    min-height: 900px;
+    width: 100%;
+    background-color: red;
 
 }
 
+
+
+
+#Big, #M1{
+   
+    
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    
+    text-decoration: none;
+}
+
+#LearnMore{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
