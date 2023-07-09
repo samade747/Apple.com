@@ -178,11 +178,12 @@ li{
 #Visionpro{
 
     display: inline-block;
-    float: right;
+    float: left;
     background-position: center;
     background-image: url(./Assests/promo1.jpg);
     min-height: 900px;
     width: 49%;
+
     margin: 10px 10px;
     
 
@@ -219,6 +220,7 @@ li{
     background-image: url(./Assests/pp8.jpg);
     min-height: 900px;
     width: 49%;
+    
     margin: 10px 10px;
    
     
@@ -244,25 +246,26 @@ li{
     text-decoration: none;
     list-style: none;
 }
-
+ /* 6 end */
 
 
 /* Box 7 *********** */
 #ipadpro{
-
+    
     display: inline-block;
-    float: right;
+    float: left;
     background-position: center;
     background-image: url(./Assests/p1.jpg);
     min-height: 900px;
     width: 49%;
+    
     margin: 10px 10px;
     
 
 }
 
 
-/* Box6 */
+/* Box7 */
 #supercharged, #ipad1, #superchargedby{  
     
     
@@ -271,11 +274,121 @@ li{
     color: rgb(255, 255, 255);
     text-decoration: none;
 }
-/* Box6 */
+/* Box7 */
 #lnm{
     
     text-align: center;
     font-size: 30px;
     text-decoration: none;
     list-style: none;
+}
+ 
+/* 7 end */
+
+/* Box8 @@@ @@@ @@  */
+#TradeIn{
+    
+    display: inline-block;
+    float: left;
+    background-position: center;
+    background-image: url(./Assests/iphneazz.jpg);
+    min-height: 900px;
+    width: 49%;
+    
+    margin: 10px 10px;
+    
+
+}
+
+
+/* Box8 */
+#Upgrade, #saveit, #deviceworth{  
+    
+    
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* Box8 */
+#yourdevice{
+   
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* Box9 @@@ @@@ @@  */
+#Icard{
+    
+    display: inline-block;
+    float: left;
+    background-position: center;
+    background-image: url(./Assests/card.JPG);
+    min-height: 900px;
+    width: 49%;
+    
+    margin: 10px 10px;
+    
+
+}
+
+
+/* Box9 */
+#cashback, #getup, #everypurchase{  
+    
+    
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/* Box9 */
+#yourdevice{
+   
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+#footer{
+    width: 100%;
+    height: 1200px;     
+    display: inline-block;
+    
+    box-sizing: border-box;
+        
+    footer-border-color: #d2d2d7;
+    footer-background: #f5f5f7;
+    footer-text-color: #6e6e73;
+    footer-link-color: #424245;
+    footer-pipe-color: #86868b;
+    footer-directory-title-color: #1d1d1f;
+}
+
+
+#shoplearn{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 900px;     
+    display: flex;
+    flex-direction: column;
+   
+    list-style: none;
+    
+    footer-border-color: #d2d2d7;
+    footer-background: #f5f5f7;
+    footer-text-color: #6e6e73;
+    footer-link-color: #424245;
+    footer-pipe-color: #86868b;
+    footer-directory-title-color: #1d1d1f;
+
+
 }
