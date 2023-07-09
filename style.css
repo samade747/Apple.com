@@ -36,8 +36,10 @@ li{
 
 #navbar{
     background-color: #f9f8fd;
-    width: 100;
+    width: 100%;
     text-align: center;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
     
         
 }
@@ -50,30 +52,227 @@ li{
         
 }
 
-
+/* box1 */
 #box{
     background-position: center;
     background-image: url(./Assests/macbook.jpg);
     min-height: 900px;
     width: 100%;
     background-color: red;
+    margin-bottom: 30px;
+
 
 }
 
-
-
-
-#Big, #M1{
-   
-    
+/* box1 */
+#Big, #M1{  
     flex-direction: column;
     text-align: center;
     font-size: 30px;
     
     text-decoration: none;
 }
-
+/* box1 */
 #LearnMore{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Box 2 */
+#MacIpad{
+    background-position: center;
+    background-image: url(./Assests/hero.jpg);
+    min-height: 900px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 20px;
+
+}
+/* Box2 */
+#College, #gift{  
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    
+    text-decoration: none;
+}
+/* Box2 */
+#shopnow{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+/* Box 3 */
+#iphone14pro{
+    background-position: center;
+    background-image: url(./Assests/hero_iphone14pro_spring__9xo85pm6sbmm_mediumtall_2x.jpg);
+    min-height: 900px;
+    width: 100%;
+    background-color: red;
+    margin-bottom: 30px;
+
+}
+/* Box3 */
+#pro, #Probeyond #iphone{  
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+/* Box3 */
+#Learnnbuy{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* Box 4 */
+#Wonderfull{
+    display: inline-block;
+    background-position: center;
+    background-image: url(./Assests/promo.jpg);
+    min-height: 900px;
+    width: 49%;
+    
+    margin: 10px 10px;
+
+}
+/* Box4 */
+#full, #wonder #iphone14{  
+    
+    flex-direction: column;
+    text-align: center;
+    font-size: 30px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+/* Box4 */
+#LBuys{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+
+
+/* Box 5 *********** */
+#Visionpro{
+
+    display: inline-block;
+    float: right;
+    background-position: center;
+    background-image: url(./Assests/promo1.jpg);
+    min-height: 900px;
+    width: 49%;
+    margin: 10px 10px;
+    
+
+}
+
+
+/* Box5 */
+#era, #Visionpro1, #era1, #wonderz{  
+    
+    
+    text-align: center;
+    font-size: 30px;
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+/* Box5 */
+#LBuys{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+
+/* Box 6 *********** */
+#Watchseries8{
+
+    display: inline-block;
+    float: left;
+    background-position: center;
+    background-image: url(./Assests/pp8.jpg);
+    min-height: 900px;
+    width: 49%;
+    margin: 10px 10px;
+   
+    
+    
+
+}
+
+
+/* Box6 */
+#series8, #healthy{  
+    
+    
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* Box6 */
+#buynow{
+    
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+
+/* Box 7 *********** */
+#ipadpro{
+
+    display: inline-block;
+    float: right;
+    background-position: center;
+    background-image: url(./Assests/p1.jpg);
+    min-height: 900px;
+    width: 49%;
+    margin: 10px 10px;
+    
+
+}
+
+
+/* Box6 */
+#supercharged, #ipad1, #superchargedby{  
+    
+    
+    text-align: center;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+/* Box6 */
+#lnm{
     
     text-align: center;
     font-size: 30px;
