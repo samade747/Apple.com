@@ -369,25 +369,19 @@ li{
 /* Bottom Footer *************** */
 
 .footer{
-    {
-        --footer-background: #f5f5f7;
-        footer-border-color: #d2d2d7;
-        --footer-text-color: #6e6e73;
-        --footer-link-color: #424245;
-        --footer-pipe-color: #86868b;
-        --footer-directory-title-color: #1d1d1f;
-        --footer-directory-title-color-hover: #000;
-        font-size: 12px;
-        line-height: 1.33337;
-        font-weight: 400;
-        letter-spacing: -.01em;
-        font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
-        background: var(--footer-background);
-        color: var(--footer-text-color);
-        min-width: 1024px;
-        overflow: hidden;
-        position: relative;
-        z-index: 1;
+    width: 100%;    
+    max-height: 600px;
+    display: flex;  
+    flex-wrap: wrap;
+    
+    flex-basis: 25%;
+    padding-top: 20px;
+    letter-spacing: -.01em;
+    bottom: 0;    
+    box-sizing: border-box;    
+    background-color: #f5f5f7;
+     
+       
     }
 
 
@@ -410,18 +404,26 @@ li{
 
 
 
-    /* width: 100%;    
-    max-height: 600px;
-    display: flex;  
-    flex-wrap: wrap;
     
-    flex-basis: 25%;
-    padding-top: 20px;
+/* 
+    --footer-background: #f5f5f7;
+    footer-border-color: #d2d2d7;
+    --footer-text-color: #6e6e73;
+    --footer-link-color: #424245;
+    --footer-pipe-color: #86868b;
+    --footer-directory-title-color: #1d1d1f;
+    --footer-directory-title-color-hover: #000;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
     letter-spacing: -.01em;
-    bottom: 0;    
-    box-sizing: border-box;    
-    background-color: #f5f5f7; */
-
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","Helvetica Neue","Helvetica","Arial",sans-serif;
+    background: var(--footer-background);
+    color: var(--footer-text-color);
+    min-width: 1024px;
+    overflow: hidden;
+    position: relative;
+    z-index: 1; */
 
     
 
