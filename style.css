@@ -360,19 +360,29 @@ li{
 
 /*  Footer text *************** */
 #footer-1{
+    margin: auto;
     
-
     background-color: #f5f5f7;
-    text-size-adjust: center;
-    text-align: left;
-    font-size: 15px;
-   
+    max-width: 80%;
+    font-size: 20px;
+    max-height: 900px;
+    clear: both;
     
 
 }
 
+
+#footer-1 span{
+    margin: 50px;
+    margin-bottom: 30px;
+    
+
+
+
+}
+
 .footer1 span{
-    max-width: 500px;
+    
     
 
 
@@ -383,14 +393,15 @@ li{
 
 /* Bottom Footer *************** */
 .footer{
-          
+    max-width: 80%;
     max-height: 900px;
-    display: flex;  
-    flex-wrap: wrap;          
-    align-items: baseline;       
+    
     background-color: #f5f5f7;
-     
-       
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+      
     }
 
 
@@ -403,27 +414,20 @@ li{
     
 }
 
-.footer-content li{
-    display: flex;
-    flex-wrap: wrap;
-    
-   
+.footer-content {
+   padding: 0;
+   border: 0;
+   margin: 0;
+   font-size: 15px;
     
     
 }
 
-.footer-content {
-    
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    
-
-    
-    font-size: 20px;
-    font-weight: 400;
-    transition: all .40s ease;
-    text-decoration: none;
+.footer-content li{
+    margin-bottom: 0;   
+    padding: 10;
+    border: 0;
+   
 
    
 
@@ -433,20 +437,34 @@ li{
     
     text-decoration: none;
     color: black;
- 
-    font-size: 20px;
-    font-weight: 400;
-    transition: all .40s ease;
-
-
-}
-
-
-
-.footer-content li a:hover{
-    translate: translatey(-3px);
-    translate: translatex(-5px);
+    letter-spacing: -0.12px;
     
+    font-size: 15px;
+    font-weight: 400;
+    transition: all .60s ease;
+
 
 }
 
+
+
+.footer-content li a:hover {
+    translate: translateY(-10px);
+    translate: translateX(-20px);
+    transform: scale(5);
+    text-decoration-line: underline;
+
+}
+
+#bothfooter{
+    background-color: #f5f5f7;
+}
+
+#bottoline{
+    max-width: 80%;
+    max-height: 900px;
+    
+    background-color: #f5f5f7;
+    margin: auto;
+
+}
