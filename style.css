@@ -393,7 +393,7 @@ li{
 
 /* Bottom Footer *************** */
 .footer{
-    max-width: 80%;
+    min -width: 80%;
     max-height: 900px;
     
     background-color: #f5f5f7;
@@ -466,5 +466,16 @@ li{
     
     background-color: #f5f5f7;
     margin: auto;
+
+}
+
+#footer{
+    height: 500px;
+    
+    column-count: 3;
+    column-gap: 10px;
+    column-fill: auto;
+
+
 
 }
