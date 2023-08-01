@@ -393,14 +393,15 @@ li{
 
 /* Bottom Footer *************** */
 .footer{
-    min -width: 80%;
+    
+    width: 80%;
     max-height: 900px;
     
     background-color: #f5f5f7;
-    margin: auto;
+    margin-left: 170px;
 
     display: grid;
-    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
+    grid-template-columns: 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px 150px;
       
     }
 
